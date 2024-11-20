@@ -1,0 +1,1 @@
+function lobby:settings/arena

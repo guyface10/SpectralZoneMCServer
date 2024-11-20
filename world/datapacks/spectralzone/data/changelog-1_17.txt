@@ -1,0 +1,7 @@
+- Updated to 1.17
+- Upped resource pack version to 7
+- Fixed powerups not being removed upon round end
+- "Your X powerup ran out!" -> "Your X powerup wore off!"
+- Added Scattershot powerup:
+  - Powerup lasts 20 seconds
+  - Every time you shoot casts 5 additional rays with a slight deviation

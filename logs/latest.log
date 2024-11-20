@@ -1,0 +1,132 @@
+[19:37:19] [ServerMain/INFO]: Building unoptimized datafixer
+[19:37:20] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[19:37:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:37:21] [ServerMain/INFO]: Loaded 7 recipes
+[19:37:22] [ServerMain/ERROR]: Couldn't parse loot table minecraft:blocks/shulker_box
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at alz.h(SourceFile:119) ~[server-1.19.2.jar:?]
+	at dtu$b.a(SourceFile:112) ~[server-1.19.2.jar:?]
+	at dtu$b.b(SourceFile:101) ~[server-1.19.2.jar:?]
+	at dtn$c.b(SourceFile:99) ~[server-1.19.2.jar:?]
+	at dtn$c.a(SourceFile:88) ~[server-1.19.2.jar:?]
+	at dsa$c.deserialize(SourceFile:102) ~[server-1.19.2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at alz.a(SourceFile:455) ~[server-1.19.2.jar:?]
+	at alz.a(SourceFile:473) ~[server-1.19.2.jar:?]
+	at dsx$e.a(SourceFile:149) ~[server-1.19.2.jar:?]
+	at dsx$e.b(SourceFile:129) ~[server-1.19.2.jar:?]
+	at dsv$b.b(SourceFile:86) ~[server-1.19.2.jar:?]
+	at dsv$b.a(SourceFile:74) ~[server-1.19.2.jar:?]
+	at dsa$c.deserialize(SourceFile:102) ~[server-1.19.2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at alz.a(SourceFile:455) ~[server-1.19.2.jar:?]
+	at alz.a(SourceFile:463) ~[server-1.19.2.jar:?]
+	at dso$1.a(SourceFile:61) ~[server-1.19.2.jar:?]
+	at dso$1.b(SourceFile:53) ~[server-1.19.2.jar:?]
+	at dsv$b.b(SourceFile:86) ~[server-1.19.2.jar:?]
+	at dsv$b.a(SourceFile:74) ~[server-1.19.2.jar:?]
+	at dsa$c.deserialize(SourceFile:102) ~[server-1.19.2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at alz.a(SourceFile:455) ~[server-1.19.2.jar:?]
+	at alz.a(SourceFile:463) ~[server-1.19.2.jar:?]
+	at dsf$b.a(SourceFile:173) ~[server-1.19.2.jar:?]
+	at dsf$b.deserialize(SourceFile:169) ~[server-1.19.2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar:?]
+	at alz.a(SourceFile:455) ~[server-1.19.2.jar:?]
+	at alz.a(SourceFile:473) ~[server-1.19.2.jar:?]
+	at dsg$b.a(SourceFile:214) ~[server-1.19.2.jar:?]
+	at dsg$b.deserialize(SourceFile:210) ~[server-1.19.2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar:?]
+	at dsh.a(SourceFile:44) ~[server-1.19.2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at dsh.a(SourceFile:42) ~[server-1.19.2.jar:?]
+	at dsh.a(SourceFile:17) ~[server-1.19.2.jar:?]
+	at air.a(SourceFile:13) ~[server-1.19.2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at ais.a(SourceFile:69) ~[server-1.19.2.jar:?]
+	at ad.a(SourceFile:958) ~[server-1.19.2.jar:?]
+	at ad.b(SourceFile:946) ~[server-1.19.2.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:156) ~[server-1.19.2.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[19:37:22] [ServerMain/INFO]: Loaded 1179 advancements
+[19:37:22] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[19:37:22] [Server thread/INFO]: Loading properties
+[19:37:22] [Server thread/INFO]: Default game type: SURVIVAL
+[19:37:22] [Server thread/INFO]: Generating keypair
+[19:37:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:37:22] [Server thread/INFO]: Using default channel type
+[19:37:23] [Server thread/INFO]: Preparing level "world"
+[19:37:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:37:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:37:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:37:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:37:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:37:25] [Worker-Main-3/INFO]: Preparing spawn area: 7%
+[19:37:25] [Server thread/INFO]: Time elapsed: 2415 ms
+[19:37:25] [Server thread/INFO]: Done (2.583s)! For help, type "help"
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/104, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/105, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/106, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/107, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/108, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/109, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/110, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/111, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/112, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/113, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/114, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/115, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/116, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/117, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/118, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/2, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/3, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/4, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/5, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/6, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/7, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/8, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/9, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/10, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/11, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/12, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/13, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/14, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/15, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:25] [Server thread/INFO]: Villager btp['Villager'/16, l='ServerLevel[Spectral Zone]', x=8.00, y=-9958.00, z=9.00] died, message: 'Villager fell out of the world'
+[19:37:52] [Server thread/INFO]: Stopping the server
+[19:37:52] [Server thread/INFO]: Stopping server
+[19:37:52] [Server thread/INFO]: Saving players
+[19:37:52] [Server thread/INFO]: Saving worlds
+[19:37:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spectral Zone]'/minecraft:overworld
+[19:37:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spectral Zone]'/minecraft:the_nether
+[19:37:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Spectral Zone]'/minecraft:the_end
+[19:37:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:37:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:37:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:37:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
